@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190dp"
+    android:layout_height="300dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/customborder"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/productListItem_start_Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/star_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="70dp"
+            android:text="2019-11-20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:id="@+id/productListItem_cname_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GS"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/productListItem_type_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="음료수"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productListItem_image_Iv"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/test"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/productListItem_gname_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="상품명"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/productListItem_price_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2000원" />
+
+</LinearLayout>
